@@ -48,22 +48,3 @@ const userInput = () => {
 
 userInput();
 
-
-
-// const shapes = (data) => {
-//     if (data.shape === "circle") {
-//       const circle = new Circle(data.text, data.textColor, data.shapeColor);
-//       return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${circle.render()}<text x="150" y="125" font-size="60" 
-//       text-anchor="middle" fill="${circle.textColor}">${circle.text}</text></svg>`
-//     }
-//     else if (data.shape === "square") {
-//       const square = new Square(data.text, data.textColor, data.shapeColor);
-//       return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${square.render()}<text x="150" y="125" font-size="60" 
-//       text-anchor="middle" fill="${square.textColor}">${square.text}</text></svg>`
-//     }
-//     else if (data.shape === "triangle") {
-//       const triangle= new Triangle(data.text, data.textColor, data.shapeColor);
-//       return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${triangle.render()}<text x="150" y="125" font-size="60" 
-//       text-anchor="middle" fill="${triangle.textColor}">${triangle.text}</text></svg>`
-//     }
-//   };
