@@ -14,7 +14,7 @@ module.exports = (shapeData) => {
     </head>
     <body>
         <header class='container'>
-        <h1>Here is your logo</h1?
+        <h1>Here is your logo</h1>
         </header>
 
 
