@@ -1,8 +1,9 @@
 #Git should ignore
+Assets
+Images
 node_modules
-.node_modules
-**.DS_STORE
 .DS_STORE
 README---Starter_code.md
-**Assets
-**Images
+zzz.html
+
+

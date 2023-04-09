@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const Shape = require('./lib/shapes')
 const fs = require('fs');
-const shapeTemplate = require('./src/shapeTemplate');
+const shapeTemplate = require('./lib/src/shapeTemplate');
 
 
 const userInput = () => {
@@ -40,8 +40,8 @@ const userInput = () => {
     .then((data) => {
       const shape = new Shape(data.text, data.textColor, data.shape, data.shapeColor)
 
-      fs.writeFile(`logo.html`, shapeTemplate(shape), (err) =>
-        err ? console.error(err) : console.log('Here is your logo :)')
+      fs.writeFile(`logo.svg`, shapeTemplate(shape), (err) =>
+        err ? console.error(err) : console.log("Generated logo.svg")
       )
     })
 };
