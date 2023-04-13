@@ -51,7 +51,7 @@ https://github.com/FernyCastro8/Logo-Maker_mod10.git
 https://fernycastro8.github.io/Logo-Maker_mod10/
 
 
-- [Screen Shot]
+- [ walkthrough ]
 
 
 https://user-images.githubusercontent.com/124219457/230750202-e955ebc9-ca04-4b02-985b-b7d4ed9d887b.mov
